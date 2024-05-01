@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api';
 import Note from '../components/Note';
-import Chart from 'chart.js/auto'; // Import de Chart.js
+import Chart from 'chart.js'; // Import de Chart.js
 import io from 'socket.io-client'; // Import de socket.io-client
 import '../styles/Home.css';
 
